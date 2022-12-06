@@ -128,9 +128,7 @@ nav ul a:hover {
 }
 .blob {
   position: absolute;
-  align-self: flex-start;
-  margin-left: -100px;
-  margin-top: -130px;
+  margin: -400px 0 0 -700px;
   z-index: -1;
 }
 
@@ -242,31 +240,4 @@ ol.carousel-indicators li.active {
   font-size: 16px;
   line-height: 28px;
   border-radius: 20px;
-}
-#footer {
-  width: 100%;
-  font-size: 18px;
-  display: flex;
-  justify-content: space-evenly;
-  align-items: center;
-  background: linear-gradient(183.41deg, #67c3f3 -8.57%, #5a98f2 82.96%);
-  color: #ffffff;
-}
-.footer-logo {
-  width: 20%;
-}
-.footer-logo img {
-  width: 40px;
-  height: 40px;
-  border-radius: 50%;
-}
-.footer-logo-text {
-  display: flex;
-  align-items: center;
-}
-.footer-list {
-  width: 20%;
-}
-.footer-list ul {
-  list-style: none;
 }
